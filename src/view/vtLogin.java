@@ -1,11 +1,13 @@
 package view;
 
+import controller.controladorInicio;
 import java.awt.Color;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 public class vtLogin extends javax.swing.JFrame {
 
+    private controladorInicio c = new controladorInicio();
     public vtLogin() {
         initComponents();   
         this.setTitle("Paquetería");
@@ -174,10 +176,14 @@ public class vtLogin extends javax.swing.JFrame {
 
     private void btnEntrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrarMouseClicked
         String correo = jtfCorreo.getText();
-        //String contra = String.valueOf(jpfContra.getPassword());
+        String contra = String.valueOf(jpfContra.getPassword());
         //JOptionPane.showMessageDialog(null, "Inicio de sesión exitoso\nCorreo: " + correo + "\nContraseña: " + contra);
-        new vtMenuPrincipal(correo, this).setVisible(true);
-        this.setVisible(false);
+        if(c.ingresar(correo, contra) == true){
+            new vtMenuPrincipal(correo, this).setVisible(true);
+            this.setVisible(false);
+        }
+        else
+            JOptionPane.showMessageDialog(null, "Credenciales de usurio incorrectos");
     }//GEN-LAST:event_btnEntrarMouseClicked
 
     public static void main(String args[]) {
