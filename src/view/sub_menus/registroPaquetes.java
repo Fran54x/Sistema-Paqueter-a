@@ -4,6 +4,8 @@
  */
 package view.sub_menus;
 
+import java.awt.Color;
+
 /**
  *
  * @author ijmr_
@@ -26,33 +28,310 @@ public class registroPaquetes extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jSeparator2 = new javax.swing.JSeparator();
+        jTextField3 = new javax.swing.JTextField();
+        jSeparator3 = new javax.swing.JSeparator();
+        jTextField4 = new javax.swing.JTextField();
+        jSeparator4 = new javax.swing.JSeparator();
+        jLabel3 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jSeparator5 = new javax.swing.JSeparator();
+        jComboBox4 = new javax.swing.JComboBox<>();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
+        jSeparator8 = new javax.swing.JSeparator();
+        jTextField9 = new javax.swing.JTextField();
+        jSeparator9 = new javax.swing.JSeparator();
+        jTextField10 = new javax.swing.JTextField();
+        jSeparator10 = new javax.swing.JSeparator();
+        jLabel12 = new javax.swing.JLabel();
+        jComboBox5 = new javax.swing.JComboBox<>();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jLabel13 = new javax.swing.JLabel();
+        panelBoton = new javax.swing.JPanel();
+        btnEntrar = new javax.swing.JLabel();
+        panelBoton1 = new javax.swing.JPanel();
+        btnEntrar2 = new javax.swing.JLabel();
 
-        setMinimumSize(new java.awt.Dimension(720, 540));
+        setBackground(new java.awt.Color(255, 255, 255));
+        setMinimumSize(new java.awt.Dimension(620, 540));
         setPreferredSize(new java.awt.Dimension(720, 540));
+        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Ventana de Registro");
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(282, 282, 282)
-                .addComponent(jLabel1)
-                .addContainerGap(331, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(116, 116, 116)
-                .addComponent(jLabel1)
-                .addContainerGap(408, Short.MAX_VALUE))
-        );
+        jLabel6.setBackground(new java.awt.Color(255, 239, 207));
+        jLabel6.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
+        jLabel6.setText("DIRECCIÓN DEL REMITENTE");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 290, 30));
+
+        jTextField2.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextField2.setForeground(java.awt.Color.gray);
+        jTextField2.setText("Calle");
+        jTextField2.setBorder(null);
+        jTextField2.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 320, 37));
+        jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 320, 10));
+
+        jTextField3.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextField3.setForeground(java.awt.Color.gray);
+        jTextField3.setText("Número");
+        jTextField3.setBorder(null);
+        jTextField3.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 60, 37));
+        jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 70, 57, 10));
+
+        jTextField4.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextField4.setForeground(java.awt.Color.gray);
+        jTextField4.setText("Código postal");
+        jTextField4.setBorder(null);
+        jTextField4.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jPanel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, 87, 37));
+        jPanel1.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 70, 87, 10));
+
+        jLabel3.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jLabel3.setText("País:");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 40, 20));
+
+        jComboBox2.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar" }));
+        jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 139, 37));
+
+        jComboBox1.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar" }));
+        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 100, 139, 37));
+
+        jLabel4.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jLabel4.setText("Entidad federativa:");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 120, 20));
+
+        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 510, 150));
+
+        jLabel7.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/source/caja.png"))); // NOI18N
+        jLabel7.setText("  REGISTRAR PAQUETE");
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, 40));
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel8.setBackground(new java.awt.Color(255, 239, 207));
+        jLabel8.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
+        jLabel8.setText("DATOS DEL PAQUETE");
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 190, 30));
+
+        jTextField5.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextField5.setForeground(java.awt.Color.gray);
+        jTextField5.setText("Nombre");
+        jTextField5.setBorder(null);
+        jTextField5.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jPanel2.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 190, 37));
+        jPanel2.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 190, 10));
+
+        jComboBox4.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar" }));
+        jPanel2.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 139, 37));
+
+        jLabel10.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jLabel10.setText("Fragilidad:");
+        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 120, 20));
+
+        jLabel5.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jLabel5.setText("Identificador asignado:");
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 140, 30));
+
+        jLabel2.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
+        jLabel2.setText("271122001");
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 80, 30));
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextArea1.setRows(5);
+        jTextArea1.setText("Descripción");
+        jTextArea1.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, 280, 110));
+
+        add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, 510, 180));
+
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel11.setBackground(new java.awt.Color(255, 239, 207));
+        jLabel11.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
+        jLabel11.setText("DIRECCIÓN DEL DESTINATARIO");
+        jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 190, 30));
+
+        jTextField8.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextField8.setForeground(java.awt.Color.gray);
+        jTextField8.setText("Calle");
+        jTextField8.setBorder(null);
+        jTextField8.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jPanel3.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 320, 37));
+        jPanel3.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 320, 10));
+
+        jTextField9.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextField9.setForeground(java.awt.Color.gray);
+        jTextField9.setText("Número");
+        jTextField9.setBorder(null);
+        jTextField9.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jPanel3.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 60, 37));
+        jPanel3.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 70, 57, 10));
+
+        jTextField10.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jTextField10.setForeground(java.awt.Color.gray);
+        jTextField10.setText("Código postal");
+        jTextField10.setBorder(null);
+        jTextField10.setMargin(new java.awt.Insets(8, 8, 8, 8));
+        jPanel3.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, 87, 37));
+        jPanel3.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 70, 87, 10));
+
+        jLabel12.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jLabel12.setText("País:");
+        jPanel3.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 40, 20));
+
+        jComboBox5.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar" }));
+        jPanel3.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 139, 37));
+
+        jComboBox6.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar" }));
+        jPanel3.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 100, 139, 37));
+
+        jLabel13.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
+        jLabel13.setText("Entidad federativa:");
+        jPanel3.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 120, 20));
+
+        add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 510, 150));
+
+        panelBoton.setBackground(new java.awt.Color(221, 145, 19));
+        panelBoton.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnEntrar.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        btnEntrar.setForeground(new java.awt.Color(255, 255, 255));
+        btnEntrar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        btnEntrar.setText("LIMPIAR");
+        btnEntrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btnEntrar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnEntrarMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnEntrarMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnEntrarMouseExited(evt);
+            }
+        });
+        panelBoton.add(btnEntrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 40));
+
+        add(panelBoton, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 430, 170, 40));
+
+        panelBoton1.setBackground(new java.awt.Color(221, 145, 19));
+        panelBoton1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnEntrar2.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        btnEntrar2.setForeground(new java.awt.Color(255, 255, 255));
+        btnEntrar2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        btnEntrar2.setText("REGISTRAR");
+        btnEntrar2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btnEntrar2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnEntrar2MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnEntrar2MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnEntrar2MouseExited(evt);
+            }
+        });
+        panelBoton1.add(btnEntrar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 40));
+
+        add(panelBoton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 480, 170, 40));
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnEntrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrarMouseClicked
+
+    }//GEN-LAST:event_btnEntrarMouseClicked
+
+    private void btnEntrarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrarMouseEntered
+        panelBoton.setBackground(new Color(249,191,92));
+    }//GEN-LAST:event_btnEntrarMouseEntered
+
+    private void btnEntrarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrarMouseExited
+        panelBoton.setBackground(new Color(249,191,92));
+    }//GEN-LAST:event_btnEntrarMouseExited
+
+    private void btnEntrar2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrar2MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEntrar2MouseClicked
+
+    private void btnEntrar2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrar2MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEntrar2MouseEntered
+
+    private void btnEntrar2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrar2MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEntrar2MouseExited
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel btnEntrar;
+    private javax.swing.JLabel btnEntrar2;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox4;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSeparator jSeparator10;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator8;
+    private javax.swing.JSeparator jSeparator9;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
+    private javax.swing.JPanel panelBoton;
+    private javax.swing.JPanel panelBoton1;
     // End of variables declaration//GEN-END:variables
 }
